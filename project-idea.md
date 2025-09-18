@@ -9,6 +9,7 @@ The goal would be for the robot to explore its environment and when done should 
 # High Level Logistics 
 This idea is still preliminary and for review but the robot SHALL:
 - have an embedded rasp pi for data collection and a light weight web server for hosting (i have a rasp pi4)
+	- potentially also use Linux VM for web hosting since web-server will only be live when UPS is powering pi
 - have the ability to traverse its environment using wheels (e.g. a DIY car project that allows rasp pi integration)
 - have a UPS battery pack hat (need to reference device compatibility chart)
 - use a lidar sensor to implement traversal via SLAM
